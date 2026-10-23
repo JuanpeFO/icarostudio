@@ -34,7 +34,7 @@
   <header>
     <p class="brand">Flow Stack</p>
     <h1>Política de privacidad</h1>
-    <p>Última actualización: <time datetime="2026-10-22">22 de octubre de 2026</time>.</p>
+    <p>Última actualización: <time datetime="2026-10-23">23 de octubre de 2026</time>.</p>
   </header>
   <div class="details">
     <p><strong>Aplicación:</strong> Flow Stack para Android.</p>
@@ -52,8 +52,8 @@
 
   <h2>2. Edad, publicidad y servicios de Google</h2>
   <p>Antes de iniciar los servicios publicitarios, el juego solicita una fecha de nacimiento de forma neutral y permite continuar sin indicarla. La fecha completa se procesa temporalmente en el dispositivo para calcular una categoría y se descarta antes de iniciar los servicios. Solo se guardan localmente la categoría (menor de 13 años, de 13 a 17 años, adulto o edad no indicada) y la fecha de esta decisión. La pregunta se repite transcurridos 365 días. La fecha de nacimiento no se envía al desarrollador ni a Google y no se incluye en los diagnósticos propios.</p>
-  <p>Por prudencia, todas las personas menores de 18 años y quienes no indiquen su edad reciben el tratamiento publicitario infantil de Google. El juego comunica al SDK de Google la señal de tratamiento infantil o de edad inferior a la de consentimiento; no comunica la fecha de nacimiento. Este tratamiento solicita anuncios sin personalización por intereses ni remarketing y restringe el uso del identificador publicitario conforme a las reglas de Google para menores. Se solicita contenido publicitario de categoría G y se desactiva el identificador propio del editor para todas las edades. Para los adultos, las decisiones de consentimiento se gestionan cuando corresponda; indicar una edad adulta no significa aceptar anuncios personalizados.</p>
-  <p>La aplicación integra Google Mobile Ads (AdMob) para anuncios intersticiales y anuncios voluntarios con recompensa, y Google User Messaging Platform (UMP) para gestionar las opciones de privacidad y consentimiento cuando corresponda.</p>
+  <p>A partir de la versión 0.5.4 (código 13), las personas menores de 18 años y quienes no indiquen su edad pueden jugar sin anuncios ni compras. Tras la decisión de edad, el flujo del juego mantiene deshabilitados los proveedores y no configura ni inicia Google Mobile Ads, UMP o Unity IAP para esas categorías. No se ofrecen anuncios automáticos, vídeos con recompensa, compras o restauraciones para esos usuarios. Esta medida se refiere al arranque de estos servicios desde el juego y no constituye una garantía de ausencia de toda comunicación del motor, componentes nativos, sistema operativo o tienda. Para los adultos, las decisiones de consentimiento se gestionan cuando corresponda; indicar una edad adulta no significa aceptar anuncios personalizados. En el flujo de publicidad para adultos se solicita contenido publicitario de categoría G y se desactiva el identificador propio del editor.</p>
+  <p>La aplicación integra Google Mobile Ads (AdMob) para anuncios intersticiales y anuncios voluntarios con recompensa, y Google User Messaging Platform (UMP) para gestionar las opciones de privacidad y consentimiento cuando corresponda. El flujo de inicio de estos servicios solo se habilita para adultos.</p>
   <p>Al comunicarse con estos servicios, se pueden tratar y compartir con Google y, según la configuración publicitaria y las elecciones mostradas al usuario, con los proveedores publicitarios identificados en los mensajes de consentimiento:</p>
   <ul>
     <li>Dirección IP, que puede utilizarse para estimar una ubicación aproximada.</li>
@@ -100,7 +100,7 @@
   <p>Puedes presentar una reclamación ante la autoridad de protección de datos competente; en España, la <a href="https://www.aepd.es/">Agencia Española de Protección de Datos</a>.</p>
 
   <h2>9. Menores</h2>
-  <p>El público previsto de Flow Stack incluye niños, adolescentes y adultos. El juego no exige crear una cuenta del desarrollador ni facilitar un nombre o un correo para jugar. Los padres o representantes pueden utilizar el contacto indicado al principio de esta política para formular consultas o ejercer los derechos que correspondan en relación con los datos de un menor.</p>
+  <p>El público previsto de Flow Stack incluye niños, adolescentes y adultos. El juego no exige crear una cuenta del desarrollador ni facilitar un nombre o un correo para jugar. A partir de la versión 0.5.4 (código 13), el flujo del juego no inicia servicios de anuncios, UMP o compras para menores de 18 años ni para edades desconocidas; el juego sigue disponible sin esos servicios. Los padres o representantes pueden utilizar el contacto indicado al principio de esta política para formular consultas o ejercer los derechos que correspondan en relación con los datos de un menor.</p>
   <p>La declaración de edad no constituye una verificación documental de identidad ni un consentimiento parental. Los permisos de un menor deben gestionarse con su representante cuando la legislación aplicable lo exija. La clasificación del contenido de la tienda no equivale al consentimiento para publicidad.</p>
 
   <h2>10. Cambios en esta política</h2>
